@@ -166,13 +166,13 @@ ggplot(both, aes(v,gs, col=height))+geom_point()+labs(y="Conductance (mm/s)", x=
 # Assignment
 
 
-Adjust your almond model to output ONLY the mean almond yield anomoly IF the users sets parameter (e.g mean_only = TRUE))
+Adjust your almond model to output ONLY the mean almond yield anomaly IF the users sets parameter (e.g mean_only = TRUE))
 
 Perform a sensitivity analysis of how mean anomaly varies ALL of the parameters used in the yield model  
 Assume parameters are normally distribute with standard deviation of 20% mean value
 
 Rank the parameters in term of their sensitivity
-Graph uncertainty in mean yield anomaly across all parameter uncertainty (boxplot and cummulative distribution of the output).
+Graph uncertainty in mean yield anomaly across all parameter uncertainty (boxplot and cumulative distribution of the output).
 
 Repeat using the LHS and Sobel methods
 
